@@ -271,6 +271,7 @@ export default function Page() {
 					</div>
 
 					<ListProjects/>
+					
 					<div className="absolute bottom-0 left-0 w-full h-15 bg-gradient-to-t from-black/56 h-100 to-transparent pointer-events-none -z-1"></div>
 				</section>
 			</div>
