@@ -177,7 +177,7 @@ export default function Page() {
 
 									<div>
 										<h3 className="text-sm md:text-base font-medium text-[var(--color-text-white)]">Desempenho</h3>
-										<p className="text-xs md:text-sm text-[var(--color-text-gray-dark)] whitespace-normal">Sempre entrego o meu melhor em cada projeto, buscando <span className="bg-gradient-to-t from-[rgba(var(--color-gradient-dark-rgb),0.6)] to-[rgba(var(--color-gradient-light-rgb),0.6)] text-[var(--color-text-white)] p-1 bg-left inline-block bg-no-repeat">excelência, qualidade e alto desempenho</span><br/> em cada detalhe.</p>
+										<p className="text-xs md:text-sm text-[var(--color-text-gray-dark)] whitespace-normal">Sempre entrego o meu melhor em cada projeto, buscando <span className="bg-gradient-to-t from-[rgba(var(--color-gradient-dark-rgb),0.6)] to-[rgba(var(--color-gradient-light-rgb),0.6)] text-[var(--color-text-white)] p-1 bg-left inline-block bg-no-repeat">excelência, qualidade e alto desempenho</span> em cada detalhe.</p>
 									</div>
 								</div>
 								<div className="flex items-center gap-3 md:gap-4">
