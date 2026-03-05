@@ -262,7 +262,7 @@ export default function Page() {
 					ref={(el) => {
 					if (el) sectionRefs.current["projetos"] = el;
 					}}
-					className="relative w-full min-h-[104vh] md:min-h-[102vh] flex items-start pt-12 md:pt-28 snap-start">
+					className="relative w-full min-h-[99vh] md:min-h-[102vh] flex items-start pt-12 md:pt-28 snap-start">
 
 					<div className="absolute bottom-7 left-1/2 transform -translate-x-1/2 -z-1">
 						<h1 className="text-center font-extrabold leading-[0.7] text-transparent text-[clamp(3rem,10vw,10rem)] [-webkit-text-stroke:1px_var(--color-primary-stroke)] mt-6">
