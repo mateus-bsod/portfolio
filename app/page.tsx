@@ -83,7 +83,7 @@ export default function Page() {
 
 						<h2 className="text-center text-4xl font-semibold max-w-2xl"><span className="bg-gradient-to-t from-[var(--color-gradient-indigo-dark)] to-transparent p-1 bg-left rounded inline-block bg-no-repeat">{dev.desenvolvedor["dev"]}</span></h2>
 
-						<p className="text-[var(--color-text-gray-light)] text-sm mt-2 mb-4">Desenvolvedor Full-Stack focado em <a className="text-[var(--color-text-white)]">sistemas, automações e integrações</a>.</p>
+						<p className="text-[var(--color-text-gray-light)] text-sm mt-2 mb-4 whitespace-normal">Desenvolvedor Full-Stack focado em <a className="text-[var(--color-text-white)]">sistemas, automações e integrações</a>.</p>
 
 						<div className="relative flex justify-center items-center gap-4">
 							<div className="flex items-center gap-2 text-sm text-[var(--color-primary-accent)] bg-[var(--color-bg-overlay)]/50 border border-[var(--color-border-purple)] rounded-full px-4 py-1">
@@ -160,8 +160,8 @@ export default function Page() {
 
 						<div className="w-full md:w-auto">
 							<h1 className="text-3xl font-semibold text-center md:text-left">{dev.desenvolvedor["dev.nome"]}</h1>
-							<p className="text-sm text-[var(--color-text-gray-medium)] mt-2 text-center md:text-left">
-								Sou <span className="bg-[var(--color-text-white)] inline-block text-transparent bg-clip-text">{dev.desenvolvedor["dev.é"]}</span>, tenho grande interesse pela <span className="bg-[var(--color-text-white)] inline-block text-transparent bg-clip-text">{dev.desenvolvedor["dev.gosta"]}</span><br/> e <span className="bg-[var(--color-text-white)] inline-block text-transparent bg-clip-text">gosto de aprender constantemente</span>.
+							<p className="text-sm text-[var(--color-text-gray-medium)] mt-2 text-center md:text-left whitespace-normal">
+								Sou <span className="bg-[var(--color-text-white)] inline-block text-transparent bg-clip-text">{dev.desenvolvedor["dev.é"]}</span>, tenho grande interesse pela <span className="bg-[var(--color-text-white)] inline-block text-transparent bg-clip-text">{dev.desenvolvedor["dev.gosta"]}</span> e <span className="bg-[var(--color-text-white)] inline-block text-transparent bg-clip-text">gosto de aprender constantemente</span>.
 							</p>
 
 							<div className="flex flex-col gap-6 md:gap-10 mt-6">
@@ -177,7 +177,7 @@ export default function Page() {
 
 									<div>
 										<h3 className="text-sm md:text-base font-medium text-[var(--color-text-white)]">Desempenho</h3>
-										<p className="text-xs md:text-sm text-[var(--color-text-gray-dark)]">Sempre entrego o meu melhor em cada projeto, buscando <span className="bg-gradient-to-t from-[rgba(var(--color-gradient-dark-rgb),0.6)] to-[rgba(var(--color-gradient-light-rgb),0.6)] text-[var(--color-text-white)] p-1 bg-left inline-block bg-no-repeat">excelência, qualidade e alto desempenho</span><br/> em cada detalhe.</p>
+										<p className="text-xs md:text-sm text-[var(--color-text-gray-dark)] whitespace-normal">Sempre entrego o meu melhor em cada projeto, buscando <span className="bg-gradient-to-t from-[rgba(var(--color-gradient-dark-rgb),0.6)] to-[rgba(var(--color-gradient-light-rgb),0.6)] text-[var(--color-text-white)] p-1 bg-left inline-block bg-no-repeat">excelência, qualidade e alto desempenho</span><br/> em cada detalhe.</p>
 									</div>
 								</div>
 								<div className="flex items-center gap-3 md:gap-4">
@@ -191,7 +191,7 @@ export default function Page() {
 
 									<div>
 										<h3 className="text-sm md:text-base font-medium text-[var(--color-text-white)]">Criatividade</h3>
-										<p className="text-xs md:text-sm text-[var(--color-text-gray-dark)]">Empenhar minha criatividade não é uma escolha, <span className="bg-gradient-to-t from-[rgba(var(--color-gradient-dark-rgb),0.6)] to-[rgba(var(--color-gradient-light-rgb),0.6)] text-[var(--color-text-white)] p-1 bg-left inline-block bg-no-repeat">é um propósito.</span></p>
+										<p className="text-xs md:text-sm text-[var(--color-text-gray-dark)] whitespace-normal">Empenhar minha criatividade não é uma escolha, <span className="bg-gradient-to-t from-[rgba(var(--color-gradient-dark-rgb),0.6)] to-[rgba(var(--color-gradient-light-rgb),0.6)] text-[var(--color-text-white)] p-1 bg-left inline-block bg-no-repeat">é um propósito.</span></p>
 									</div>
 								</div>
 								<div className="flex items-center gap-3 md:gap-4">
@@ -206,7 +206,7 @@ export default function Page() {
 									<div>
 									
 										<h3 className="text-sm md:text-base font-medium text-[var(--color-text-white)]">Aprendizado</h3>
-										<p className="text-xs md:text-sm text-[var(--color-text-gray-dark)]">Sou alguém que gosta de aprender e evoluir todos os dias. A tecnologia é minha paixão, e estou <br/>sempre buscando crescer, entender mais e <span className="bg-gradient-to-t from-[rgba(var(--color-gradient-dark-rgb),0.6)] to-[rgba(var(--color-gradient-light-rgb),0.6)] text-[var(--color-text-white)] p-1 bg-left inline-block bg-no-repeat">fazer melhor do que ontem</span>.</p>
+										<p className="text-xs md:text-sm text-[var(--color-text-gray-dark)] whitespace-normal">Sou alguém que gosta de aprender e evoluir todos os dias. A tecnologia é minha paixão, e estou sempre buscando crescer, entender mais e <span className="bg-gradient-to-t from-[rgba(var(--color-gradient-dark-rgb),0.6)] to-[rgba(var(--color-gradient-light-rgb),0.6)] text-[var(--color-text-white)] p-1 bg-left inline-block bg-no-repeat">fazer melhor do que ontem</span>.</p>
 									</div>
 								</div>
 							</div>						
