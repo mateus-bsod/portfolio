@@ -1,3 +1,9 @@
+## Portfolio
+![img](https://github.com/mateus-bsod/portfolio/blob/main/imgs/inicio.png)
+![img](https://github.com/mateus-bsod/portfolio/blob/main/imgs/eu.png)
+![img](https://github.com/mateus-bsod/portfolio/blob/main/imgs/hab.png)
+![img](https://github.com/mateus-bsod/portfolio/blob/main/imgs/proj.png)
+
 ## Iniciar 
 ```bash
 npm run dev
@@ -46,12 +52,6 @@ Para configurar nome, descrição, skills ou qualquer coisa do tipo é necessari
 	]
 }
 ```
-
-## Portfolio
-![img](https://github.com/mateus-bsod/portfolio/blob/main/imgs/inicio.png)
-![img](https://github.com/mateus-bsod/portfolio/blob/main/imgs/eu.png)
-![img](https://github.com/mateus-bsod/portfolio/blob/main/imgs/hab.png)
-![img](https://github.com/mateus-bsod/portfolio/blob/main/imgs/proj.png)
 
 ## 
 - [Next.js](https://nextjs.org/docs)
