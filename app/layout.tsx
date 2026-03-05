@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Portfolio of Dev",
-	description: "Developer Mateus portfolio.",
+	title: "Portfolio",
+	description: "Portfolio de Mateus Mesquita.",
+	icons: {
+		icon: '/icone.ico',
+	},
 };
 
 export default function RootLayout({
