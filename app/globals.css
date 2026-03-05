@@ -76,10 +76,10 @@ body {
 html, body {
 	height: 100%;
 	width: 100%;
-	white-space: nowrap; 
-
-    overflow-y: hidden;
-    overscroll-behavior: none; 
+	white-space: normal;
+	
+	overflow-y: auto;
+	overscroll-behavior: contain;
 }
 
 .hide-scrollbar::-webkit-scrollbar {
