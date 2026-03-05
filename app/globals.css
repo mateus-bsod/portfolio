@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./colors.css";
+
+@import "tailwindcss";
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+@theme {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-geist-sans);
+	--font-mono: var(--font-geist-mono);
+	--font-poppins: "Poppins", sans-serif;
+
+	--animate-wiggle: wiggle 1s ease-in-out infinite;
+	--animate-move-arrow: move-arrow 2s ease-in-out infinite;
+	--animate-cor: cor 1s ease-in-out infinite;
+
+	
+}
+
+@layer utilities {
+  .grid-background {
+    --color: #181818;
+    background-color: #101010;
+    background-image: 
+      linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 20px 20px;
+  }
+}
+
+@keyframes cor {
+	0%,
+	100% {
+		transform: grayscale(100%);
+	}
+	50% {
+		transform: grayscale(0%);
+	}
+}
+
+@keyframes move-arrow {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
+
+@keyframes wiggle {
+	0%,
+	100% {
+		transform: rotate(-3deg);
+	}
+	50% {
+		transform: rotate(3deg);
+	}
+}
+
+@keyframes shine {
+	0% {
+		transform: translateX(-100%) rotate(15deg);
+	}
+	100% {
+		transform: translateX(600%) rotate(12deg);
+	}
+}
+
+.animate-shine {
+	animation: shine 1.5s ease-in-out forwards;
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap; 
+}

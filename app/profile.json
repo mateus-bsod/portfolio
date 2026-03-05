@@ -1,0 +1,62 @@
+{
+	"desenvolvedor": {
+		"dev": "mateus-bsod",
+		"dev.nome": "Mateus Lima",
+		"dev.é": "entusiasta de computação e inovação",
+		"dev.gosta": "área da tecnologia"
+	},
+
+	"redes_sociais": {
+		"github": "https://github.com/mateus-bsod",
+		"linkedin": "https://www.linkedin.com/in/mateus-mesquita-lima-8551173a3/",
+		"youtube": "https://www.youtube.com/@mateus-bsod",
+		"discord": ""
+	},
+
+	"skills" :
+	[
+		{ "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+		{ "name": "TypeScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+		{ "name": "React", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+		{ "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+		{ "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+		{ "name": "Lua", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" },
+		{ "name": "MySQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+		{ "name": "CPP", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+		{ "name": "C", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
+		{ "name": "Pawn", "icon": "https://www.compuphase.com/images/pawnlogo128.png" },
+		{ "name": "PostgreSQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" }
+	],
+
+	"projects":
+	[
+        {
+            "name": "samp gtav menu",
+            "logo": "",
+            "projectName": "Menu GTAV para SAMP",
+            "description": "Projeto feito em Pawn",
+            "link": "https://github.com/mateus-bsod/samp-gtav-menu"
+        },
+        {
+            "name": "XAMP",
+            "logo": "https://images.seeklogo.com/logo-png/27/1/xampp-logo-png_seeklogo-274098.png",
+            "projectName": "XAMPP PT-BR",
+            "description": "Tradução do XAMPP",
+            "link": "https://github.com/mateus-bsod/xampp-pt-br"
+        },
+        {
+            "name": "Samp Pawn Vector",
+            "logo": "",
+            "projectName": "Vetores de C++ para Pawn",
+            "description": "Projeto feito em C++",
+            "link": "https://github.com/mateus-bsod/samp-pawn-vector"
+        },
+        {
+            "name": "samp-helpdev",
+            "logo": "",
+            "projectName": "samp-helpdev",
+            "description": "Projeto para ajudar devs de samp",
+            "link": "https://github.com/mateus-bsod/samp-helpdev"
+        }	
+	]
+}
