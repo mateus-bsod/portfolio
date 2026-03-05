@@ -83,7 +83,7 @@ export default function Page() {
 
 						<h2 className="text-center text-4xl font-semibold max-w-2xl"><span className="bg-gradient-to-t from-[var(--color-gradient-indigo-dark)] to-transparent p-1 bg-left rounded inline-block bg-no-repeat">{dev.desenvolvedor["dev"]}</span></h2>
 
-						<p className="text-[var(--color-text-gray-light)] text-sm mt-2 mb-4">dev.desenvolvedor["sobre"]Desenvolvedor Full-Stack focado em <a className="text-[var(--color-text-white)]">sistemas, automações e integrações</a>.</p>
+						<p className="text-[var(--color-text-gray-light)] text-sm mt-2 mb-4">Desenvolvedor Full-Stack focado em <a className="text-[var(--color-text-white)]">sistemas, automações e integrações</a>.</p>
 
 						<div className="relative flex justify-center items-center gap-4">
 							<div className="flex items-center gap-2 text-sm text-[var(--color-primary-accent)] bg-[var(--color-bg-overlay)]/50 border border-[var(--color-border-purple)] rounded-full px-4 py-1">
